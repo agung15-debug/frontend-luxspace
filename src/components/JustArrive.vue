@@ -118,7 +118,7 @@ export default defineComponent({
   },
   mounted() {
     axios
-      .get("http://admin.luxspace.my.id/api/products")
+      .get("https://admin.luxspace.my.id/api/products")
       .then((response) => (this.products = response.data.data.data))
       .catch((err) => console.log(err));
   },
