@@ -189,7 +189,7 @@ export default {
       }
     }
     axios
-      .get("http://admin.luxspace.my.id/api/products", {
+      .get("https://admin.luxspace.my.id/api/products", {
         params: {
           id: this.$route.params.id,
         },
