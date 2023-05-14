@@ -118,7 +118,7 @@ export default defineComponent({
   },
   mounted() {
     axios
-      .get("https://admin.luxspace.my.id/api/products")
+      .get("https://luxspace-backend-v35lvqcqfa-as.a.run.app/api/products")
       .then((response) => (this.products = response.data.data.data))
       .catch((err) => console.log(err));
   },

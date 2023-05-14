@@ -504,7 +504,7 @@ export default {
         transaction_details: productIds,
       };
       axios
-        .post("https://admin.luxspace.my.id/api/checkout", checkoutData)
+        .post("https://luxspace-backend-v35lvqcqfa-as.a.run.app/api/checkout", checkoutData)
         .then(() => this.$router.push("success"))
         .catch((err) => console.log(err));
       localStorage.clear();
